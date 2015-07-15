@@ -18,18 +18,22 @@ python code::
  jsend.fail({'jsend':'value'})
  jsend.error({'jsend':'value'})
 
-An example::
  
- 19  from onceaweek.tools import jsend
- 20
- 21  # to generate jsend formatted dictionary
- 22  jsend.success({'key':'value'})
- 23  # output = {'status':'success', 'data':{'key':'value'}
- 24
- 25  jsend.fail({'json':'object'})
- 26  jsend.error('message')
- 27
- 28  jsend.is_success(json_string)
- 29  jsend.is_fail(json_string)
- 30  jsend.is_error(json_string)
+Usage
+-----
+success example::
+ 
+ >>> from onceaweek.tools import jsend
+ >>> jsend.success({'key':'value'})
+ {'status':'success', 'data':{'key':'value'}}
+ 
+fail example::
+ >>> from onceaweek.tools import jsend
+ >>> jsend.fail({'json':'object'})
+ {'status':'fail', 'data':{'key':'value'}}
+ 
+error example::
+ >>> from onceaweek.tools import jsend
+ >>> jsend.error('error!!')
+ {'status':'error', 'message':'error!!'}}
  
