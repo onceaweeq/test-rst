@@ -10,7 +10,7 @@ An example::
   Lookie here, I've dropped an indentation level
   (but not far enough)
 
-python code:: python code
+python code::
 
  Here is the python code
  okay?
