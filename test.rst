@@ -24,7 +24,7 @@ Usage
 success example::
 
  >>> from onceaweek.tools import jsend
- >>> jsend.*success*({'key':'value'})
+ >>> jsend.success({'key':'value'})
  {'status':'success', 'data':{'key':'value'}}
  
 ----
