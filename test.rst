@@ -22,17 +22,11 @@ python code::
 Usage
 -----
 success example::
+
  >>> from onceaweek.tools import jsend
  >>> jsend.success({'key':'value'})
  {'status':'success', 'data':{'key':'value'}}
  
-fail example::
- >>> from onceaweek.tools import jsend
- >>> jsend.fail({'json':'object'})
- {'status':'fail', 'data':{'key':'value'}}
- 
-error example::
- >>> from onceaweek.tools import jsend
- >>> jsend.error('error!!')
- {'status':'error', 'message':'error!!'}}
- 
+----
+Test
+----
