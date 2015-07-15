@@ -13,5 +13,8 @@ An example::
 python code::
  
  from woorizm.tools import jsend
- jsend.success({'jsend':'value'})
  
+ jsend.success({'jsend':'value'})
+ jsend.fail({'jsend':'value'})
+ jsend.error({'jsend':'value'})
+
