@@ -11,6 +11,7 @@ An example::
   (but not far enough)
 
 python code::
-
- Here is the python code
- okay?
+ 
+ from woorizm.tools import jsend
+ jsend.success({'jsend':'value'})
+ 
